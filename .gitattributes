@@ -1,3 +1,10 @@
+preprocessedTrain.csv filter=lfs diff=lfs merge=lfs -text
+summaries.csv filter=lfs diff=lfs merge=lfs -text
+test.txt filter=lfs diff=lfs merge=lfs -text
+FinalProjectGroup24.ipynb filter=lfs diff=lfs merge=lfs -text
+fine_tuned_model_t5_small filter=lfs diff=lfs merge=lfs -text
+preprocessedTest.csv filter=lfs diff=lfs merge=lfs -text
 *.csv filter=lfs diff=lfs merge=lfs -text
 *.json filter=lfs diff=lfs merge=lfs -text
+*.safetensor filter=lfs diff=lfs merge=lfs -text
 *.safetensors filter=lfs diff=lfs merge=lfs -text
